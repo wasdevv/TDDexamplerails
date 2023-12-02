@@ -17,3 +17,13 @@ Inicialmente, esse projeto tem como base o básico de como usar o TDD em projeto
 ## Ilustração melhor de como funciona o TDD em cada etapa(3 etapas)
 [![Ilustração de como funciona o TDD](https://i.imgur.com/TTynxpw.png)](https://imgur.com/TTynxpw)
 
+
+- Esse código fornecido abaixo refere-se ao teste que o produto precisa ter os parâmetros certos, e caso não tenha, não irá funcionar.
+
+```
+RSpec.describe Product, type: :model do
+  it 'É valido com nome, quantity, price e description' do
+    product = Product.new(name: 'Produto Teste', quantity: 20, price: 10, description: 'Rspec Teste')
+    expect(product).to be_valid
+end
+```
