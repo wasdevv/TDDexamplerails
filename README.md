@@ -14,5 +14,6 @@ Inicialmente, esse projeto tem como base o básico de como usar o TDD em projeto
 
 - GEM rspec
 
+## Ilustração melhor de como funciona o TDD em cada etapa(3 etapas)
 [![Ilustração de como funciona o TDD](https://i.imgur.com/TTynxpw.png)](https://imgur.com/TTynxpw)
 
